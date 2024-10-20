@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #0044cc;
+    background: #0056b3;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -33,7 +33,23 @@ section {
 }
 
 h2 {
-    color: #0044cc;
+    color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: calc(25% - 10px);
+    height: auto;
 }
 
 form {
@@ -52,19 +68,18 @@ form input, form textarea {
 
 form button {
     padding: 10px;
-    background: #0044cc;
+    background: #0056b3;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #003399;
+    background: #004494;
 }
 
 footer {
     text-align: center;
     padding: 20px;
     background: #f4f4f4;
-    position: relative;
 }
